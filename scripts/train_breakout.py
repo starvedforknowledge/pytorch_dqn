@@ -3,9 +3,9 @@ import torch
 import gym
 from gym.wrappers import FrameStack, AtariPreprocessing
 
-from .model import DensePolicy, ConvPolicy
-from .train import train
-from .utils import generate_run_name
+from pytorch_dqn.model import DensePolicy, ConvPolicy
+from pytorch_dqn.train import train
+from pytorch_dqn.utils import generate_run_name
 
 if __name__ == "__main__":
     num_stack = 4
