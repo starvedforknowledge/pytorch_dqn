@@ -1,0 +1,7 @@
+torch
+torchvision
+gym[atari]
+numpy
+pandas
+pytz
+tqdm
